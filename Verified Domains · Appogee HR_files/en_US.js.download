@@ -1,0 +1,214 @@
+/* The following dictionary is following the structure
+ * pageId: {label : message}
+ * */
+
+var ALL_STRINGS = {
+	"globals":{
+		"Yes":"Yes",
+		"yes":"yes",
+		"No":"No",
+		"no":"no",
+		"formInvalid":"Form Invalid",
+		"Saved":"Saved",
+
+		"January":"January",
+		"February":"February",
+		"March":"March",
+		"April":"April",
+		"May":"May",
+		"June":"June",
+		"July":"July",
+		"August":"August",
+		"September":"September",
+		"October":"October",
+		"November":"November",
+		"December":"December",
+
+		"Jan":"Jan",
+		"Feb":"Feb",
+		"Mar":"Mar",
+		"Apr":"Apr",
+		"May":"May",
+		"Jun":"Jun",
+		"Jul":"Jul",
+		"Aug":"Aug",
+		"Sep":"Sep",
+		"Oct":"Oct",
+		"Nov":"Nov",
+		"Dec":"Dec",
+
+		"Monday":"Monday",
+		"Tuesday":"Tuesday",
+		"Wednesday":"Wednesday",
+		"Thursday":"Thursday",
+		"Friday":"Friday",
+		"Saturday":"Saturday",
+		"Sunday":"Sunday",
+
+		"Mon":"Mon",
+		"Tue":"Tue",
+		"Wed":"Wed",
+		"Thu":"Thu",
+		"Fri":"Fri",
+		"Sat":"Sat",
+		"Sun":"Sun",
+
+		"":""
+	},
+	
+	// account register
+	"register":{
+		"label.name":"Name",
+		"label.company":"Company",
+		"label.email":"Email Address",
+		"label.password":"Password",
+		
+		"validation.name":"Please enter your Name",
+		"validation.fullName":"Please enter your Full Name",
+		"validation.email":"Please enter your Email Address",
+		"validation.validEmail":"Please enter a valid Email Address",
+		"validation.password":"Please enter a password",
+		"validation.invalidPassword":"Your password is not strong enough. Please ensure it is at least 8 characters and contains both letters and numbers.",
+		"validation.invalidConfirmPassword":"Your passwords do not match",
+		"validation.company":"Please Enter your Company Name"
+	},
+	
+	// account login
+	"login":{
+		"label.email":"Email Address",
+		"label.password":"Password",
+		
+		"validation.email":"Please enter your Email Address",
+		"validation.validEmail":"Please enter a valid Email Address",
+		"validation.password":"Please enter your password",
+		"validation.invalidPassword":"The password you entered is not valid."
+	},
+	
+	"password":{
+		"validation.password":"Please enter your new password",
+		"validation.invalidPassword":"Your password is not strong enough. Please ensure it is at least 8 characters and contains both letters and numbers.",
+		"validation.invalidConfirmPassword":"Your passwords do not match"
+	},
+	
+	"account":{
+		"validation.currentPassword":"Please enter your current password.",
+		"validation.newPassword":"Please enter your new password.",
+		"validation.invalidPassword":"Your password is not strong enough. Please ensure it is at least 8 characters and contains upper and lower case letters, characters and numbers.",
+		"validation.invalidConfirmPassword":"New password and Confirmed password do not match."
+	},
+	
+	"password_reset":{
+		"validation.email":"Please enter your Email Address",
+		"validation.validEmail":"Please enter a valid Email Address",
+	},
+	
+	// setup
+	"setup":{
+		"validation.userName":"Please enter your Name.",
+		"validation.userFullName":"Please enter your Full Name.",
+		
+		"validation.companyName":"Please enter your Company Name.",
+		"validation.companySize":"Please select your Company Size.",
+		"validation.country":"Please select your Country.",
+		"validation.calSystem":"Select the calendar system your company currently uses.",
+
+		"validation.adminName":"Please enter the Name of your IT Administrator.",
+		"validation.adminFullName":"Please enter the <strong>Full Name</strong> of your IT Administrator.",
+		"validation.adminEmail":"Please enter the Email Address of your IT Administrator.",
+		"validation.adminEmailInvalid":"The email address <strong>{0}</strong> for the IT Administrator is not valid.",
+		"validation.adminPosition":"Please enter the Job Title of your IT Administrator.",
+
+		"validation.hrName":"Please enter the Name of your HR Manager.",
+		"validation.hrFullName":"Please enter the <strong>Full Name</strong> of your HR Manager.",
+		"validation.hrEmail":"Please enter the Email Address of your HR Manager.",
+		"validation.hrEmailInvalid":"The email address <strong>{0}</strong> for the HR Manager is not valid.",
+		"validation.hrPosition":"Please enter the Job Title of your HR Manager.",
+		
+		"validation.teamName":"Please enter a name for the team.",
+		"validation.teamNameInvalid":"The team name \"{0}\" is invalid. Please enter at least 2 characters.",
+		
+		"validation.manager":"Please select a Manager for the {0} team.",
+		"validation.managerName":"Please enter the Name of the {0} team Manager.",
+		"validation.managerFullName":"Please enter the <strong>Full Name</strong> of the {0} team Manager.",
+		"validation.managerEmail":"Please enter the Email Address of the {0} team Manager.",
+		"validation.managerEmailInvalid":"The email address <strong>{0}</strong> for the {1} team Manager is not valid.",
+		
+		"validation.members":"Please enter at least one member for the <strong>{0}</strong> team.",
+		"validation.memberFullName":"Please enter the <strong>Full Name</strong> for all Employees entered.",
+		"validation.memberEmail":"Please enter the Email Address of the <strong>{0}</strong> team members.",
+		"validation.memberEmailInvalid":"The email address <strong>{0}</strong> for the <strong>{1}</strong> team is not valid.",
+		
+		"validation.emailDomain":"Email <strong>{0}</strong> does not belong to <strong>{1}</strong> domain. Please enter a valid email to proceed.",
+		"validation.emailInUse":"The <strong>{0}</strong> email is already in use for the {1} team {2} {3}. Please enter a different email.",
+		
+		"validation.calSystem":"Please select your Calendar System.",
+		"validation.calSystemOther":"Please specify your Calendar System.",
+		"validation.primaryColor":"Invalid Primary Color",
+		"validation.secondaryColor":"Invalid Secondary Color",
+		"validation.hexCode":"The hex code {0} is invalid.",
+		
+		"validation.logo":"Invalid Logo",
+		"validation.logoInvalid":"Your logo is invalid. Please select a jpg, png or gif file.",
+		
+		"errors.submitTitle":"Setup Error",
+		"errors.submitMessage":"An unexpected error occurred during setup. Please try again.",
+	},
+	
+	"hr-team-create":{
+		"validation.name":"Please enter a Name for the Team"
+	},
+	
+	"hr-registration":{
+		"validation.name":"Please enter the employees Name",
+		"validation.fullName":"Please enter the employees Full Name",
+		"validation.email":"Please enter the employees Email Address",
+		"validation.validEmail":"Please enter a valid Email Address",
+		"validation.emailUnavailable":"The Email Address you entered is not available.",
+		"validation.team":"Please select the Team for this Employee",
+		"validation.emp":"Please select the Leave Profile for this Employee",
+		"validation.jobTitle":"Please enter the employees Job Title",
+		"validation.dob":"Please enter a valid Date of Birth",
+		"validation.dobFuture":"Please ensure the employees Date of Birth is in the past",
+		"validation.startDate":"Please enter a valid Employment Start Date",
+		"validation.endDate":"Please enter a valid Employment End Date",
+		
+		"validation.joiningStartDate":"If Status is New Starter, the Employment Start Date must be in the future",
+		"validation.activeStartDate":"If Status is Existing, the Employment Start Date must be in the past",
+		"validation.formerStartDate":"If Status is Former, the Employment Start Date must be in the past",
+		"validation.formerEndDate":"If Status is Former, the Employment End Date must be in the past",
+		"validation.startEndDate":"Please ensure the start date is before the end date",
+		
+		"errors.userExistsTitle":"Registration Error",
+		"errors.userExistsMessage":"The Email Address {0} is not available. Please try again.",
+	},
+	
+	"hr-checklist":{
+		"validation.name":"Please enter a Name for the Checklist",
+		'validation.triggerTarget':"Please select a Trigger Target",
+		
+		"hints.assignTo.prompt":"The current user will be prompted to assign the checklist to an appropriate user",
+		"hints.assignTo.current_user":"The current user will be automatically assigned the checklist",
+		"hints.assignTo.target_user":"The target user will be automatically assigned the checklist",
+		"hints.assignTo.target_manager":"The configured manager for the target user will be automatically assigned the checklist",
+		"hints.assignTo.user":"Specify a user to assign the checklist to",
+	},
+	
+	"hr-team": {
+		"view.managerview.noManagerTitle":"No Manager Selected",
+		"view.managerview.noManagerMsg":"Please select a manager by searching in the textbox, then selecting a search result.",
+		"view.managerview.setPrimaryTitle":"Set Primary Manager?",
+		"view.managerview.setPrimaryMsg":"Doing this will set the new Primary manager to be an editor and ...",//TODO: finish wording for message
+	},
+	
+	"config-fields": {
+		"view.fieldconfig.cantDeleteGroupTitle":"Not Deleted",
+		"view.fieldconfig.cantDeleteGroupMsg":"Please remove all the fields from this sub category before attempting to delete the sub category",
+		"view.fieldconfig.preventSortTitle":"Sort Prevented",
+		"view.fieldconfig.preventSortMsg":"Your sort was invalid and has been prevented.",
+	},
+	
+	"config-profile": {
+		"error.enterValue": "Please enter a value for the following fields: <strong>{0}</strong>.",
+	}
+
+};

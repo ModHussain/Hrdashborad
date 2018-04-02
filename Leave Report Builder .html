@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Report Builder · Appogee HR</title>
+	      
+	<meta name="description" content="Appogee HR">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="images/favi.png" rel="icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	   <script src="js/script.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+	require.config({config:{i18n:{locale:'en_US'},'admin/app':{pageId:'admin-allowance-calculator'}}});
+	</script>
+	
+	
+	
+	
+
+	
+<script id="jUser" type="application/json">GH0W3!!{&#34;adu&#34;: {&#34;path&#34;: &#34;/ojas-it.com&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnINCxIDQURVIgRyb290DKIBBkRIdXpqeQ&#34;}, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnITCxIIRW1wbG95ZWUiBWFkbWluDKIBBkRIdXpqeQ&#34;, &#34;firstName&#34;: &#34;Phaniraj&#34;, &#34;managedTeams&#34;: [{&#34;name&#34;: &#34;Management&#34;, &#34;primary&#34;: true, &#34;aduKey&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnINCxIDQURVIgRyb290DKIBBkRIdXpqeQ&#34;, &#34;role&#34;: &#34;reader&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKbWFuYWdlbWVudAyiAQZESHV6ank&#34;, &#34;aduPath&#34;: &#34;/ojas-it.com&#34;, &#34;type&#34;: &#34;team&#34;}], &#34;logins&#34;: [&#34;hr&#34;, &#34;leave&#34;], &#34;lastName&#34;: &#34;Jaligama&#34;, &#34;imageUrl&#34;: &#34;https://lh3.googleusercontent.com/Zf_hvWwBt--B1B3SwNamAsv2blKxsSLK-KVZ5ow-SEf6jBLiFBtlmW3N2KPJ4ynaPU6MDnSg6DO8AbSOFirtM1GFW-XT-RjjpJd5&#34;, &#34;nsc&#34;: 1, &#34;timeFormatString&#34;: &#34;%H:%M:%S&#34;, &#34;locale&#34;: &#34;en_US&#34;, &#34;roles&#34;: [&#34;manager&#34;, &#34;hr&#34;, &#34;admin&#34;], &#34;dateFormatString&#34;: &#34;%Y-%m-%d&#34;, &#34;team&#34;: {&#34;name&#34;: &#34;Management&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKbWFuYWdlbWVudAyiAQZESHV6ank&#34;}, &#34;calStartDay&#34;: 1, &#34;allowance&#34;: {&#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIWCxIJQWxsb3dhbmNlGICAgID4iYwKDKIBBkRIdXpqeQ&#34;}, &#34;email&#34;: &#34;jpraj@ojas-it.com&#34;, &#34;flashMsgs&#34;: null}</script>
+<script id="jSettings" type="application/json">GH0W3!!{&#34;p&#34;: {&#34;a&#34;: {&#34;a&#34;: &#34;hr&#34;, &#34;n&#34;: &#34;Appogee HR&#34;}, &#34;hn&#34;: [&#34;https://hr.appogeehr.com&#34;, null, null, null, null], &#34;t&#34;: &#34;4c0eb035b4526abc8a3cc37cb27c57dc&#34;}, &#34;c&#34;: {&#34;p1&#34;: false, &#34;gs&#34;: 1, &#34;installDate&#34;: &#34;2018-03-22T12:17:42.202150&#34;, &#34;hr&#34;: true, &#34;hideHours&#34;: false, &#34;lsm&#34;: 1, &#34;toil&#34;: &#34;TOIL&#34;, &#34;ns&#34;: &#34;DHuzjy&#34;, &#34;os&#34;: 0, &#34;adusEnabled&#34;: false}}</script>
+<script id="jAdus" type="application/json">GH0W3!![{&#34;path&#34;: &#34;/ojas-it.com&#34;, &#34;name&#34;: &#34;ojas-it.com&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnINCxIDQURVIgRyb290DKIBBkRIdXpqeQ&#34;, &#34;level&#34;: 1}]</script>
+
+  	
+</script></head>
+<body style=""><div class="freshwidget-container responsive" id="FreshWidget" data-html2canvas-ignore="true" style="display: none;"><div class="widget-ovelay" id="freshwidget-overlay">&nbsp;</div><div class="freshwidget-dialog" id="freshwidget-dialog"><div id="freshwidget-close" class="widget-close"></div><div class="mobile-widget-close" id="mobile-widget-close"></div><div class="mobile-widget-arrow" id="mobile-widget-arrow"></div> <div class="frame-container">   </div><iframe title="Feedback Form" id="freshwidget-frame" src="./Leave Report Builder · Appogee HR_files/loading.html" frameborder="0" scrolling="auto" allowtransparency="true" style="height: 730px"> &lt;/div&gt;&lt;/div&gt;</iframe></div></div><div id="freshwidget-button" data-html2canvas-ignore="true" class="freshwidget-button fd-btn-bottom" style="display: none; left: -200px;"><a href="javascript:void(0)" class="freshwidget-theme" style="color: white; background-color: rgb(32, 53, 138); border-color: white;">Support</a></div>
+
+
+
+<div class="page-app banner ">
+
+<div id="userPicker" class="user_picker" style="display: none;"></div>
+
+
+	
+		<div class="splash-msg trial">
+			
+				Your Trial Expires in 7 Days.
+			
+	
+			<a href="#" class="purchse">
+				Purchase License.
+			</a>
+
+			
+			<div class="trial-buttons">
+				<button class="btn btn-sm btn-success btn-trys" id="btnThingsToTry">
+					Take a 10 Minute Tour
+				</button>
+				
+					<a href="#" class="btn btn-sm btn-danger">
+						Remove Demo Data
+					</a>
+				
+			</div>
+			
+		</div>
+	
+
+
+<header class="header">
+	<div class="visible-xs visible-sm">
+		<button class="btn-mobile btn-mobile-menu" id="btnBurger">
+			<i class="material-icons md-36">menu</i>
+		</button>
+
+		<div class="appogee-logo hr">
+			<a href="#">
+				<img src="images/appogee_hr_flat.png" class="img-responsive">
+			</a>
+		</div>
+
+		<button class="btn-mobile btn-mobile-directory" id="btnMobileDirectory">
+			<i class="material-icons md-36">search</i>
+		</button>
+		<div class="clearfix"></div>
+	</div>
+
+	<div class="visible-md visible-lg">
+
+		<div class="appogee-logo hr">
+			<a href="#">
+				<img src="images/appogee_hr_flat.png" class="img-responsive">
+			</a>
+		</div>
+
+		
+		<div class="customer-logo ">
+			<img src="images/appogee_hr_flat.png" class="img-responsive">
+		</div>
+		
+			<div class="toolbar">
+				
+				<a href="#" class="appogee-tooltip hidden-xs hidden-sm" data-tooltip="Licensing" data-tooltip-position="left">
+					<i class="material-icons">shopping_cart</i>
+				</a>
+				
+		
+				<a href="#" class="support appogee-tooltip hidden-xs hidden-sm" data-tooltip="Support" data-tooltip-position="left">
+					<i class="material-icons">help</i>
+				</a>
+		
+				<div class="sep hidden-xs hidden-sm"></div>
+		
+				<a href="#" class="account appogee-tooltip profile-picture" data-tooltip="Account" data-tooltip-position="left">
+					
+						<div class="avatar avatar-30" style="background-image: url(&#39;https://lh3.googleusercontent.com/Zf_hvWwBt--B1B3SwNamAsv2blKxsSLK-KVZ5ow-SEf6jBLiFBtlmW3N2KPJ4ynaPU6MDnSg6DO8AbSOFirtM1GFW-XT-RjjpJd5=s30&#39;);"></div>
+					
+				</a>
+		
+				<span class="user-name">
+					Phaniraj Jaligama
+				</span>
+			</div>
+			
+		
+	</div>
+</header>
+
+<div class="page-container menu submenu-h" id="pageContainer">
+	
+	<nav class="main-menu appogee-scroll">
+		<div class="mobile-links visible-xs visible-sm">
+			<div class="pull-left">
+				<a href="#" class="prefs">
+					<i class="glyphicon glyphicon-cog"></i>
+					Phaniraj Jaligama
+				</a>
+			</div>
+			<div class="pull-right">
+				<a href="#">
+					<i class="glyphicon glyphicon-log-out"></i>
+					Log Out
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<a href="#" class="menu-toggle hidden-xs hidden-sm" id="btnToggleMenu">
+			<span class="menu-icon"><i class="material-icons">code</i></span>
+		</a>
+		<!-- reporting -->
+		
+			
+				<a href="#" class="appogee-tooltip " data-alias="dashboard">
+						<span class="menu-icon"><i class="material-icons">home</i></span>
+						<span class="menu-label">Dashboard</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="directory">
+						<span class="menu-icon"><i class="material-icons">device_hub</i></span>
+						<span class="menu-label">Directory</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="documents">
+						<span class="menu-icon"><i class="material-icons">insert_drive_file</i></span>
+						<span class="menu-label">Company Docs</span>
+				</a>
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip " data-alias="personal">
+						<span class="menu-icon"><i class="material-icons">face</i></span>
+						<span class="menu-label">Personal</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="leave">
+						<span class="menu-icon"><i class="material-icons">wb_sunny</i></span>
+						<span class="menu-label">Leave</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="employment">
+						<span class="menu-icon"><i class="material-icons">work</i></span>
+						<span class="menu-label">Employment</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="performance">
+						<span class="menu-icon"><i class="material-icons">trending_up</i></span>
+						<span class="menu-label">Performance</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="learning">
+						<span class="menu-icon"><i class="material-icons">lightbulb_outline</i></span>
+						<span class="menu-label">Learning</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="assets">
+						<span class="menu-icon"><i class="material-icons">phonelink</i></span>
+						<span class="menu-label">Assets</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="checklists">
+						<span class="menu-icon"><i class="material-icons">check_circle</i></span>
+						<span class="menu-label">Checklists</span>
+				</a>
+			
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip selected" data-alias="reporting">
+						<span class="menu-icon"><i class="material-icons">equalizer</i></span>
+						<span class="menu-label">Reporting</span>
+				</a>
+			
+				<div class="sep"></div>
+				<a href="#" class="appogee-tooltip " data-alias="organisation">
+						<span class="menu-icon"><i class="material-icons">people</i></span>
+						<span class="menu-label">Organization</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="add_employee">
+						<span class="menu-icon"><i class="material-icons">person_add</i></span>
+						<span class="menu-label">Add Employee</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="security">
+						<span class="menu-icon"><i class="material-icons">security</i></span>
+						<span class="menu-label">Roles &amp; Access</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="leave_admin">
+						<span class="menu-icon"><i class="material-icons">account_circle</i></span>
+						<span class="menu-label">Leave Admin</span>
+				</a>
+			
+
+			
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip " data-alias="process_config">
+						<span class="menu-icon"><i class="material-icons">settings</i></span>
+						<span class="menu-label">Process Config</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="config">
+						<span class="menu-icon"><i class="material-icons">build</i></span>
+						<span class="menu-label">System Config</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="licensing">
+						<span class="menu-icon"><i class="material-icons">shopping_cart</i></span>
+						<span class="menu-label">Licensing</span>
+				</a>
+			
+	</nav>
+	<nav class="sub-menu" id="submenu"></nav>
+	
+
+	<div class="main-container">
+		
+<div class="sub-menu-h hidden-xs">
+	
+		<a href="#" class="selected">
+			Leave Report Builder
+		</a>
+		<a href="#" class="">
+			Bradford Factor
+		</a>
+		<a href="#" class="">
+			Leave Digest Emails
+		</a>
+		<a href="#" class="">
+			Data Export
+		</a>
+		
+		<span class="sep"></span>
+		<a href="#">
+			HR Report Builder
+		</a>
+		
+	
+</div>
+
+		<div class="content-container">
+			
+			<div class="appogee-page-header2 ">
+				<div id="pageNotifier" class="notifier ajax" style="display: none; position: absolute; left: 685px;">Loading data - 0% complete</div>
+				
+				<header>
+					<div class="pull-left">
+	<h1>Report Builder</h1>
+</div>
+					<div class="pull-right actions" id="pageActions">
+	
+	<div class="load_hide" style="display: block;">
+		<button type="button" class="btn btn-sm btn-default" id="btnAbout">
+			<i class="glyphicon glyphicon-question-sign"></i>
+			About
+		</button>
+		<a href="#" class="btn btn-sm btn-default" target="_FRESHDESK">
+			<i class="glyphicon glyphicon-question-sign"></i>
+			Help
+		</a>
+		
+		<button type="button" class="btn btn-sm btn-primary" id="btnNew">
+			<i class="glyphicon glyphicon-plus"></i>
+			<span>New Report</span>
+		</button>
+		
+		<button type="button" class="btn btn-sm btn-primary" id="btnSave">
+			<i class="glyphicon glyphicon-ok"></i>
+			<span>Save Changes</span>
+		</button>
+	</div>
+	
+</div>
+					<div class="clearfix"></div>
+				</header>
+				
+			</div>
+			
+	
+			
+			<div class="appogee-page-content appogee-tabs">
+		
+<input type="hidden" id="cache" value="0">
+<input type="hidden" id="startMonth" value="1">
+
+<div class="load_hide" style="display: block;">
+	<div class="appogee-page-content flex-container">
+		<div class="flex-main">
+			<div id="chartContainer" class="report-container show"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 776px; height: 600px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="776" height="600" aria-label="A chart." style="overflow: hidden;"><defs id="defs"><clippath id="_ABSTRACT_RENDERER_ID_0"><rect x="80" y="25" width="696" height="371"></rect></clippath><filter id="_ABSTRACT_RENDERER_ID_1"><fegaussianblur in="SourceAlpha" stdDeviation="2"></fegaussianblur><feoffset dx="1" dy="1"></feoffset><fecomponenttransfer><fefunca type="linear" slope="0.1"></fefunca></fecomponenttransfer><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter></defs><rect x="0" y="0" width="776" height="600" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="80" y="17.4" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Leave days taken by month, categorized by leave Type</text><rect x="80" y="5.5" width="696" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="368" y="541" width="119" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="368" y="541" width="119" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="401" y="552.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Annual Leave</text></g><rect x="368" y="541" width="28" height="14" stroke="none" stroke-width="0" fill="#3366cc"></rect></g></g><g><rect x="80" y="25" width="696" height="371" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://hr.appogeehr.com/reporting/leave/builder#_ABSTRACT_RENDERER_ID_0)"><g><rect x="80" y="395" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="80" y="303" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="80" y="210" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="80" y="118" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="80" y="25" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect></g><g><rect x="92" y="88" width="35" height="307" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="149" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="207" y="334" width="36" height="61" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="265" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="323" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="381" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="439" y="88" width="36" height="307" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="497" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="555" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="613" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="671" y="395" width="36" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="729" y="395" width="35" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="80" y="395" width="696" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="109.45833333333333" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Jan</text><text text-anchor="middle" x="109.45833333333333" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="167.375" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Feb</text><text text-anchor="middle" x="167.375" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="225.29166666666666" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Mar</text><text text-anchor="middle" x="225.29166666666666" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="283.2083333333333" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Apr</text><text text-anchor="middle" x="283.2083333333333" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="341.125" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">May</text><text text-anchor="middle" x="341.125" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="399.04166666666663" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Jun</text><text text-anchor="middle" x="399.04166666666663" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="456.9583333333333" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Jul</text><text text-anchor="middle" x="456.9583333333333" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="514.875" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Aug</text><text text-anchor="middle" x="514.875" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="572.7916666666666" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Sep</text><text text-anchor="middle" x="572.7916666666666" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="630.7083333333333" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Oct</text><text text-anchor="middle" x="630.7083333333333" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="688.625" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Nov</text><text text-anchor="middle" x="688.625" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="middle" x="746.5416666666666" y="416.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Dec</text><text text-anchor="middle" x="746.5416666666666" y="434.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2018</text></g><g><text text-anchor="end" x="66" y="400.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.0</text></g><g><text text-anchor="end" x="66" y="307.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">1.5</text></g><g><text text-anchor="end" x="66" y="215.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">3.0</text></g><g><text text-anchor="end" x="66" y="122.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">4.5</text></g><g><text text-anchor="end" x="66" y="30.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">6.0</text></g></g></g><g><g><text text-anchor="middle" x="428" y="493.9" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Month</text><rect x="80" y="482" width="696" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="28.4" y="210.5" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 28.4 210.5)" stroke="none" stroke-width="0" fill="#222222">Days</text><path d="M16.49999999999999,396L16.500000000000014,25L30.500000000000014,25.000000000000004L30.49999999999999,396Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Month</th><th>Annual Leave</th></tr></thead><tbody><tr><td>Jan 2018</td><td>5</td></tr><tr><td>Feb 2018</td><td>0</td></tr><tr><td>Mar 2018</td><td>1</td></tr><tr><td>Apr 2018</td><td>0</td></tr><tr><td>May 2018</td><td>0</td></tr><tr><td>Jun 2018</td><td>0</td></tr><tr><td>Jul 2018</td><td>5</td></tr><tr><td>Aug 2018</td><td>0</td></tr><tr><td>Sep 2018</td><td>0</td></tr><tr><td>Oct 2018</td><td>0</td></tr><tr><td>Nov 2018</td><td>0</td></tr><tr><td>Dec 2018</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 610px; left: 786px; white-space: nowrap; font-family: Arial; font-size: 14px; font-weight: bold;">5</div><div></div></div></div>
+		    <div id="tableContainer" class="report-container" style="width: 776px;"><div class="google-visualization-table" style="position: relative; z-index: 0; max-width: 100%; max-height: 100%;"><div style="position: relative; overflow: auto; max-width: 100%; max-height: 100%;"><table class="google-visualization-table-table" cellspacing="0"><thead><tr class="google-visualization-table-tr-head"><th class="google-visualization-table-th gradient unsorted" tabindex="0" role="button" aria-label="Sort column">Month<span class="google-visualization-table-sortind"></span></th><th class="google-visualization-table-th gradient google-visualization-table-type-number unsorted" tabindex="0" role="button" aria-label="Sort column">Annual Leave<span class="google-visualization-table-sortind"></span></th><th class="google-visualization-table-th gradient google-visualization-table-type-number unsorted" tabindex="0" role="button" aria-label="Sort column">Total<span class="google-visualization-table-sortind"></span></th></tr></thead><tbody><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">Jan 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">5</td><td class="google-visualization-table-type-number google-visualization-table-td">5</td></tr><tr class="google-visualization-table-tr-odd"><td class="google-visualization-table-td">Feb 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">Mar 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">1</td><td class="google-visualization-table-type-number google-visualization-table-td">1</td></tr><tr class="google-visualization-table-tr-odd"><td class="google-visualization-table-td">Apr 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">May 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-odd"><td class="google-visualization-table-td">Jun 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">Jul 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">5</td><td class="google-visualization-table-type-number google-visualization-table-td">5</td></tr><tr class="google-visualization-table-tr-odd"><td class="google-visualization-table-td">Aug 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">Sep 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-odd"><td class="google-visualization-table-td">Oct 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">Nov 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-odd"><td class="google-visualization-table-td">Dec 2018</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td><td class="google-visualization-table-type-number google-visualization-table-td">0</td></tr><tr class="google-visualization-table-tr-even"><td class="google-visualization-table-td">Total</td><td class="google-visualization-table-type-number google-visualization-table-td">11</td><td class="google-visualization-table-type-number google-visualization-table-td">11</td></tr></tbody></table></div></div></div>
+		</div>
+		<div class="flex-sidebar">
+			<div class="appogee-tabs" id="optionsMenu">
+				<div class="tab-header" id="reportingTabHeader">
+					<a href="#report" class="selected">Report</a>
+					<a href="#data" class="">Data</a>
+					<a href="#options" class="">Options</a>
+				</div>
+
+				<div class="tab-panel selected" data-tab="report" id="panelOptions" style="display: block;">
+					<div class="form-group" id="selectReport">
+						<label for="selectReport">Select Report</label>
+						<select id="ddlReports" class="form-control input-sm"><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrcnwoMogEGREh1emp5" selected="&quot;selected&quot;">Leave days taken by month, categorized by leave Type</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrcnwkMogEGREh1emp5">Employee Leave Chart</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrcnwsMogEGREh1emp5">Employee Sickness Chart</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrc3wgMogEGREh1emp5">Team Sickness Chart</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrc3woMogEGREh1emp5">Team Burn Rate</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrc3wkMogEGREh1emp5">Employee Burn Rate</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrc3wsMogEGREh1emp5">User Comparison</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxILTGVhdmVSZXBvcnQYgICAgLrcvwgMogEGREh1emp5">Leave Type Proportions</option></select>
+						<div class="help-block text-right">
+							<button class="btn btn-default btn-delete btn-sm" id="btnDeleteReport">Delete</button>
+							<button class="btn btn-primary btn-sm" id="btnRenameReport">Rename</button>
+						</div>
+					</div>
+
+					<label for="displayType">Display</label>
+					<div class="form-group" id="displayType">
+						<label class="radio-inline"><input type="radio" name="view" value="chart" checked="checked">Chart</label>
+					    <label class="radio-inline"><input type="radio" name="view" value="table">Tabular Data</label>
+					</div>
+
+					<label for="chartType">Select Chart Type</label>
+					<div class="form-group chart-filters" id="chartType">
+						<label class="radio-inline"><input type="radio" name="radChart" id="radChartBar" value="bar"> Bar</label>
+						<label class="radio-inline"><input type="radio" name="radChart" id="radChartColumn" value="column" checked="checked"> Column</label>
+						<label class="radio-inline"><input type="radio" name="radChart" id="radChartArea" value="area"> Area</label>
+						<label class="radio-inline"><input type="radio" name="radChart" id="radChartLine" value="line"> Line</label>
+						<label class="radio-inline"><input type="radio" name="radChart" id="radChartPie" value="pie"> Pie</label>
+					</div>
+
+					<div class="form-group chart-filters">
+						<label class="checkbox-inline">
+							<input type="checkbox" name="chkStacked" id="chkStacked" checked="checked">
+							Stacked?
+						</label>
+					</div>
+				</div>
+
+				<div class="tab-panel" data-tab="options" id="panelOptions" style="display: none;">
+					<div class="form-group">
+						<div><label><strong>Select Primary Metric</strong></label></div>
+						<label class="radio-inline"><input type="radio" name="radMetric1" value="month" checked="checked"> Month</label>
+						<label class="radio-inline"><input type="radio" name="radMetric1" value="type"> Type</label>
+						<label class="radio-inline"><input type="radio" name="radMetric1" value="data"> Team / Employee</label>
+					</div>
+
+					<div class="form-group">
+						<div><label><strong>Select Secondary Metric</strong></label></div>
+						<label class="radio-inline"><input type="radio" name="radMetric2" value="" id="radMetric2None" checked="checked"> None</label>
+						<div id="radMetric2Month"><label class="radio-inline"><input type="radio" name="radMetric2" value="month"> Month</label></div>
+						<div id="radMetric2Type"><label class="radio-inline"><input type="radio" name="radMetric2" value="type"> Type</label></div>
+						<div id="radMetric2Data"><label class="radio-inline"><input type="radio" name="radMetric2" value="data"> Team / Employee</label></div>
+						<div id="radMetric2Burn"><label class="radio-inline"><input type="radio" name="radMetric2" value="burn"> Burn Rates</label></div>
+					</div>
+
+					<div class="form-group">
+						<div><label><strong>Select Request Type</strong></label></div>
+						<label class="radio-inline"><input type="radio" name="radRequestType" id="radRequestTypeLeave" value="leave" checked="checked"> Leave</label>
+						<label class="radio-inline"><input type="radio" name="radRequestType" id="radRequestTypeSick" value="sick"> Sick</label>
+					</div>
+
+					<div class="form-group">
+						<div><label><strong>Select Unit</strong></label></div>
+						<label class="radio-inline"><input type="radio" name="radUnit" id="radUnitDays" value="days" checked="checked"> Days</label>
+						<label class="radio-inline"><input type="radio" name="radUnit" id="radUnitHours" value="hours"> Hours</label>
+						<label class="radio-inline"><input type="radio" name="radUnit" id="radUnitCount" value="count"> Count</label>
+					</div>
+
+					<div class="form-group">
+						<div><label><strong>Select Status</strong></label></div>
+						<div class="checkbox-inline">
+							<label>
+								<input type="checkbox" name="chkIncludePending" id="chkIncludePending">
+								Include Pending?
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-panel" data-tab="data" style="display: none;">
+					<div class="form-group">
+						<label><strong>Select Date Range</strong></label>
+						<select id="ddlDateRange" class="form-control input-sm date">
+							<option value="static">Static</option>
+							<option value="previous_leave_year">Previous Leave Year</option>
+							<option value="previous_calendar_year">Previous Calendar Year</option>
+							<option value="current_leave_year" selected="selected">Current Leave Year</option>
+							<option value="current_calendar_year">Current Calendar Year</option>
+							<option value="next_leave_year">Next Leave Year</option>
+							<option value="next_calendar_year">Next Calendar Year</option>
+							<option value="last_3_months">Last 3 Months</option>
+							<option value="last_6_months">Last 6 Months</option>
+							<option value="last_9_months">Last 9 Months</option>
+							<option value="last_12_months">Last 12 Months</option>
+						</select>
+						<div class="help-block" id="dateRangeDisplay">January 2018 - December 2018</div>
+					</div>
+
+					<div id="panStaticDateRange" style="display: none;">
+						<div class="form-group">
+							<label>From</label>
+							<div class="form-inline">
+								<select id="ddlFromMonth" class="form-control input-sm date month w-min-100">
+									<option value="0">January</option>
+									<option value="1">February</option>
+									<option value="2">March</option>
+									<option value="3">April</option>
+									<option value="4">May</option>
+									<option value="5">June</option>
+									<option value="6">July</option>
+									<option value="7">August</option>
+									<option value="8">September</option>
+									<option value="9">October</option>
+									<option value="10">November</option>
+									<option value="11">December</option>
+								</select>
+								&nbsp;
+								<select id="ddlFromYear" class="form-control input-sm date w-min-100">
+									
+									<option value="2018">2018</option>
+									
+									<option value="2019">2019</option>
+									
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>To</label>
+							<div class="form-inline">
+								<select id="ddlToMonth" class="form-control input-sm date month w-min-100">
+									<option value="0">January</option>
+									<option value="1">February</option>
+									<option value="2">March</option>
+									<option value="3">April</option>
+									<option value="4">May</option>
+									<option value="5">June</option>
+									<option value="6">July</option>
+									<option value="7">August</option>
+									<option value="8">September</option>
+									<option value="9">October</option>
+									<option value="10">November</option>
+									<option value="11">December</option>
+								</select>
+								&nbsp;
+								<select id="ddlToYear" class="form-control input-sm date w-min-100">
+									
+									<option value="2018">2018</option>
+									
+									<option value="2019">2019</option>
+									
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div>
+							<label class="control-label">
+								<strong>Select Data</strong>
+							</label>
+						</div>
+						<div class="radio-inline">
+							<label>
+							<input type="radio" name="radDataType" id="radDataTypeTeams" value="teams" class="radData" checked="checked">
+							Teams
+							</label>
+						</div>
+						<div class="radio-inline">
+							<label>
+							<input type="radio" name="radDataType" id="radDataTypeEmployees" value="employees" class="radData">
+							Employees
+							</label>
+						</div>
+					</div>
+					<div class="form-group" id="aduContainer" style="display: none;">
+						<select id="ddlAdu" class="form-control input-sm"></select>
+					</div>
+					<div class="form-group">
+						<select id="ddlTeams" class="form-control input-sm" multiple="multiple"><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIMCxIEVGVhbSICaHIMogEGREh1emp5">HR - Demo</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKbWFuYWdlbWVudAyiAQZESHV6ank">Management</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKb3BlcmF0aW9ucwyiAQZESHV6ank">Operations - Demo</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIPCxIEVGVhbSIFc2FsZXMMogEGREh1emp5">Sales - Demo</option><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIRCxIEVGVhbSIHc3VwcG9ydAyiAQZESHV6ank">Support - Demo</option></select>
+					</div>
+					<div class="form-group">
+						<select id="ddlEmployees" class="form-control input-sm" multiple="multiple" style="display: none;"><option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnITCxIIRW1wbG95ZWUiBWVtaWx5DKIBBkRIdXpqeQ">emily.wilson@ojas-it.com.appogeehrdemo.com</option></select>
+						<div style="font-style: italic;">Tip: Hold ctrl to select multiple</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+
+			</div>
+			
+		</div>
+		
+	</div>
+	
+<footer class="footer desktop-only">
+	<div class="pull-left">
+		<a class="terms" href="#" target="_TERMS">
+			Terms of Service
+		</a>
+	</div>
+
+	<div class="middle">
+		<a href="#" onclick="FreshWidget.show(); return false;">
+			Support
+		</a>
+	</div>
+
+	<div class="pull-right">
+		<span>©2018 Appogee HR Limited</span>
+	</div>
+</footer>
+
+</div>
+
+
+</div>
+
+
+<div class="appogee-tooltip-container"></div><script src="./Leave Report Builder · Appogee HR_files/saved_resource" type="text/javascript"></script><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable" tabindex="-1" role="dialog" aria-describedby="ui-id-1" aria-labelledby="ui-id-2" style="position: relative; display: none; height: auto; width: 300px; top: -424px; left: 500px;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-2" class="ui-dialog-title">No Title Defined</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title=""><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text"></span></button></div><div class="dialog ui-dialog-content ui-widget-content" id="ui-id-1" style="display: block; width: auto; min-height: 111px; max-height: 511px; height: auto;"><div class="dlg-about">
+	<h4>Leave Report Builder</h4>
+	<p>Welcome to the Leave Report Builder.</p>
+	<p>This tool allows you to build a variety of reports comprised from specific teams, employees and date ranges to analyse your companies leave and sickness requests.</p>
+	<p>Select from one of our default reports, or build your own. You can copy existing reports to easily make tweaks for comparison.</p>
+	<p>
+		For further information, please see our User Guide.
+		<em><a href="#" target="_FRESHDESK">View User Guide.</a></em>
+	</p>
+
+	<div class="buttons">
+		<label>
+			<input type="checkbox">
+			Don't show me this message again
+		</label>
+		
+		<div style="padding: 10px;">
+			<button class="btn btn-sm btn-default">
+				Close
+			</button>
+		</div>
+	</div>
+</div></div></div></body></html>

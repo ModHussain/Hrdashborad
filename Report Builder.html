@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>
+	Report Builder
+ · Appogee HR</title>
+	      
+	<meta name="description" content="Appogee HR">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+		<link href="images/favi.png" rel="icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	   <script src="js/script.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+	require.config({config:{i18n:{locale:'en_US'},'admin/app':{pageId:'admin-allowance-calculator'}}});
+	</script>
+	
+	
+<script id="jUser" type="application/json">GH0W3!!{&#34;adu&#34;: {&#34;path&#34;: &#34;/ojas-it.com&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnINCxIDQURVIgRyb290DKIBBkRIdXpqeQ&#34;}, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnITCxIIRW1wbG95ZWUiBWFkbWluDKIBBkRIdXpqeQ&#34;, &#34;firstName&#34;: &#34;Phaniraj&#34;, &#34;managedTeams&#34;: [{&#34;name&#34;: &#34;Management&#34;, &#34;primary&#34;: true, &#34;aduKey&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnINCxIDQURVIgRyb290DKIBBkRIdXpqeQ&#34;, &#34;role&#34;: &#34;reader&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKbWFuYWdlbWVudAyiAQZESHV6ank&#34;, &#34;aduPath&#34;: &#34;/ojas-it.com&#34;, &#34;type&#34;: &#34;team&#34;}], &#34;logins&#34;: [&#34;hr&#34;, &#34;leave&#34;], &#34;lastName&#34;: &#34;Jaligama&#34;, &#34;imageUrl&#34;: &#34;https://lh3.googleusercontent.com/Zf_hvWwBt--B1B3SwNamAsv2blKxsSLK-KVZ5ow-SEf6jBLiFBtlmW3N2KPJ4ynaPU6MDnSg6DO8AbSOFirtM1GFW-XT-RjjpJd5&#34;, &#34;nsc&#34;: 1, &#34;timeFormatString&#34;: &#34;%H:%M:%S&#34;, &#34;locale&#34;: &#34;en_US&#34;, &#34;roles&#34;: [&#34;manager&#34;, &#34;hr&#34;, &#34;admin&#34;], &#34;dateFormatString&#34;: &#34;%Y-%m-%d&#34;, &#34;team&#34;: {&#34;name&#34;: &#34;Management&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKbWFuYWdlbWVudAyiAQZESHV6ank&#34;}, &#34;calStartDay&#34;: 1, &#34;allowance&#34;: {&#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIWCxIJQWxsb3dhbmNlGICAgID4iYwKDKIBBkRIdXpqeQ&#34;}, &#34;email&#34;: &#34;jpraj@ojas-it.com&#34;, &#34;flashMsgs&#34;: null}</script>
+<script id="jSettings" type="application/json">GH0W3!!{&#34;p&#34;: {&#34;a&#34;: {&#34;a&#34;: &#34;hr&#34;, &#34;n&#34;: &#34;Appogee HR&#34;}, &#34;hn&#34;: [&#34;https://hr.appogeehr.com&#34;, null, null, null, null], &#34;t&#34;: &#34;4c0eb035b4526abc8a3cc37cb27c57dc&#34;}, &#34;c&#34;: {&#34;p1&#34;: false, &#34;gs&#34;: 1, &#34;installDate&#34;: &#34;2018-03-22T12:17:42.202150&#34;, &#34;hr&#34;: true, &#34;hideHours&#34;: false, &#34;lsm&#34;: 1, &#34;toil&#34;: &#34;TOIL&#34;, &#34;ns&#34;: &#34;DHuzjy&#34;, &#34;os&#34;: 0, &#34;adusEnabled&#34;: false}}</script>
+<script id="jAdus" type="application/json">GH0W3!![{&#34;path&#34;: &#34;/ojas-it.com&#34;, &#34;name&#34;: &#34;ojas-it.com&#34;, &#34;key&#34;: &#34;ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnINCxIDQURVIgRyb290DKIBBkRIdXpqeQ&#34;, &#34;level&#34;: 1}]</script>
+</head>
+<body style=""><div class="freshwidget-container responsive" id="FreshWidget" data-html2canvas-ignore="true" style="display: none;"><div class="widget-ovelay" id="freshwidget-overlay">&nbsp;</div><div class="freshwidget-dialog" id="freshwidget-dialog"><div id="freshwidget-close" class="widget-close"></div><div class="mobile-widget-close" id="mobile-widget-close"></div><div class="mobile-widget-arrow" id="mobile-widget-arrow"></div> <div class="frame-container">   </div><iframe title="Feedback Form" id="freshwidget-frame" src="./Report Builder · Appogee HR_files/loading.html" frameborder="0" scrolling="auto" allowtransparency="true" style="height: 730px"> &lt;/div&gt;&lt;/div&gt;</iframe></div></div><div id="freshwidget-button" data-html2canvas-ignore="true" class="freshwidget-button fd-btn-bottom" style="display: none; left: -200px;"><a href="javascript:void(0)" class="freshwidget-theme" style="color: white; background-color: rgb(32, 53, 138); border-color: white;">Support</a></div>
+
+
+
+<div class="page-app banner ">
+
+<div id="userPicker" class="user_picker" style="display: none;"></div>
+
+
+	
+		<div class="splash-msg trial">
+			
+				Your Trial Expires in 7 Days.
+			
+	
+			<a href="#" class="purchse">
+				Purchase License.
+			</a>
+
+			
+			<div class="trial-buttons">
+				<button class="btn btn-sm btn-success btn-trys" id="btnThingsToTry">
+					Take a 10 Minute Tour
+				</button>
+				
+					<a href="#" class="btn btn-sm btn-danger">
+						Remove Demo Data
+					</a>
+				
+			</div>
+			
+		</div>
+	
+<header class="header">
+	<div class="visible-xs visible-sm">
+		<button class="btn-mobile btn-mobile-menu" id="btnBurger">
+			<i class="material-icons md-36">menu</i>
+		</button>
+
+		<div class="appogee-logo hr">
+			<a href="#">
+				<img src="images/appogee_hr_flat.png" class="img-responsive">
+			</a>
+		</div>
+
+		<button class="btn-mobile btn-mobile-directory" id="btnMobileDirectory">
+			<i class="material-icons md-36">search</i>
+		</button>
+		<div class="clearfix"></div>
+	</div>
+
+	<div class="visible-md visible-lg">
+
+		<div class="appogee-logo hr">
+			<a href="#">
+				<img src="images/appogee_hr_flat.png" class="img-responsive">
+			</a>
+		</div>
+
+		
+		<div class="customer-logo ">
+			<img src="images/appogee_hr_flat.png" class="img-responsive">
+		</div>
+		
+			<div class="toolbar">
+				
+				<a href="#" class="appogee-tooltip hidden-xs hidden-sm" data-tooltip="Licensing" data-tooltip-position="left">
+					<i class="material-icons">shopping_cart</i>
+				</a>
+				
+		
+				<a href="#" class="support appogee-tooltip hidden-xs hidden-sm" data-tooltip="Support" data-tooltip-position="left">
+					<i class="material-icons">help</i>
+				</a>
+		
+				<div class="sep hidden-xs hidden-sm"></div>
+		
+				<a href="#" class="account appogee-tooltip profile-picture" data-tooltip="Account" data-tooltip-position="left">
+					
+						<div class="avatar avatar-30" style="background-image: url(&#39;https://lh3.googleusercontent.com/Zf_hvWwBt--B1B3SwNamAsv2blKxsSLK-KVZ5ow-SEf6jBLiFBtlmW3N2KPJ4ynaPU6MDnSg6DO8AbSOFirtM1GFW-XT-RjjpJd5=s30&#39;);"></div>
+					
+				</a>
+		
+				<span class="user-name">
+					Phaniraj Jaligama
+				</span>
+			</div>
+			
+		
+	</div>
+</header>
+
+<div class="page-container menu submenu-h" id="pageContainer">
+	
+	<nav class="main-menu appogee-scroll">
+		<div class="mobile-links visible-xs visible-sm">
+			<div class="pull-left">
+				<a href="#" class="prefs">
+					<i class="glyphicon glyphicon-cog"></i>
+					Phaniraj Jaligama
+				</a>
+			</div>
+			<div class="pull-right">
+				<a href="#">
+					<i class="glyphicon glyphicon-log-out"></i>
+					Log Out
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<a href="#" class="menu-toggle hidden-xs hidden-sm" id="btnToggleMenu">
+			<span class="menu-icon"><i class="material-icons">code</i></span>
+		</a>
+				<a href="#" class="appogee-tooltip " data-alias="dashboard">
+						<span class="menu-icon"><i class="material-icons">home</i></span>
+						<span class="menu-label">Dashboard</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="directory">
+						<span class="menu-icon"><i class="material-icons">device_hub</i></span>
+						<span class="menu-label">Directory</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="documents">
+						<span class="menu-icon"><i class="material-icons">insert_drive_file</i></span>
+						<span class="menu-label">Company Docs</span>
+				</a>
+			
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip " data-alias="personal">
+						<span class="menu-icon"><i class="material-icons">face</i></span>
+						<span class="menu-label">Personal</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="leave">
+						<span class="menu-icon"><i class="material-icons">wb_sunny</i></span>
+						<span class="menu-label">Leave</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="employment">
+						<span class="menu-icon"><i class="material-icons">work</i></span>
+						<span class="menu-label">Employment</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="performance">
+						<span class="menu-icon"><i class="material-icons">trending_up</i></span>
+						<span class="menu-label">Performance</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="learning">
+						<span class="menu-icon"><i class="material-icons">lightbulb_outline</i></span>
+						<span class="menu-label">Learning</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="assets">
+						<span class="menu-icon"><i class="material-icons">phonelink</i></span>
+						<span class="menu-label">Assets</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="checklists">
+						<span class="menu-icon"><i class="material-icons">check_circle</i></span>
+						<span class="menu-label">Checklists</span>
+				</a>
+			
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip selected" data-alias="reporting">
+						<span class="menu-icon"><i class="material-icons">equalizer</i></span>
+						<span class="menu-label">Reporting</span>
+				</a>
+			
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip " data-alias="organisation">
+						<span class="menu-icon"><i class="material-icons">people</i></span>
+						<span class="menu-label">Organization</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="add_employee">
+						<span class="menu-icon"><i class="material-icons">person_add</i></span>
+						<span class="menu-label">Add Employee</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="security">
+						<span class="menu-icon"><i class="material-icons">security</i></span>
+						<span class="menu-label">Roles &amp; Access</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="leave_admin">
+						<span class="menu-icon"><i class="material-icons">account_circle</i></span>
+						<span class="menu-label">Leave Admin</span>
+				</a>
+			
+				<div class="sep"></div>
+			
+				<a href="#" class="appogee-tooltip " data-alias="process_config">
+						<span class="menu-icon"><i class="material-icons">settings</i></span>
+						<span class="menu-label">Process Config</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="config">
+						<span class="menu-icon"><i class="material-icons">build</i></span>
+						<span class="menu-label">System Config</span>
+				</a>
+			
+				<a href="#" class="appogee-tooltip " data-alias="licensing">
+						<span class="menu-icon"><i class="material-icons">shopping_cart</i></span>
+						<span class="menu-label">Licensing</span>
+				</a>
+			
+	</nav>
+	<nav class="sub-menu" id="submenu" style="display: none;"><div>
+	<div>
+		<div class="pull-left">
+			<button class="btn btn-link btn-close">
+				<i class="glyphicon glyphicon-chevron-left"></i>
+			</button>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+			<h3>HR Reporting</h3>
+				<a href="#" class="item">HR Report Builder</a>
+				<a href="#" class="item">HR Reports</a>
+				<a href="#" class="item">HR Notifications</a>
+			<h3>Leave Reporting</h3>
+				<a href="#" class="item">Leave Report Builder</a>
+				<a href="#" class="item">Bradford Factor</a>
+				<a href="#" class="item">Digest Emails</a>
+				<a href="#" class="item">Data Export</a>
+</div></nav>
+	
+
+	
+	
+	<div class="main-container">
+		
+<div class="sub-menu-h hidden-xs">
+	
+		
+		<a href="#" class="selected">
+			HR Report Builder
+		</a>
+		<a href="#" class="">
+			HR Reports
+		</a>
+		
+		<a href="#" class="">
+			HR Notifications
+		</a>
+		
+		<span class="sep"></span>
+		<a href="#">
+			Leave Reporting
+		</a>
+		
+	
+</div>
+
+		<div class="content-container">
+			
+			<div class="appogee-page-header2 ">
+				<div id="pageNotifier" class="notifier ajax" style="display: none; position: absolute; left: 735px;">Loading ...</div>
+				
+				<header>
+					<div class="pull-left">
+	<h1>Report Builder</h1>
+	<h2 id="h2PageTitle">New Report</h2>
+</div>
+					<div class="pull-right actions" id="pageActions">
+	<div class="load_hide" style="display: block;">
+		<a href="#" class="btn btn-sm btn-default" target="_FRESHDESK">
+			<i class="glyphicon glyphicon-question-sign"></i>
+			Help
+		</a>
+		
+		<button type="button" class="btn btn-sm btn-default btnDesign">
+			<i class="glyphicon glyphicon-pencil"></i>
+			<span>Edit</span>
+		</button>
+		<button class="btn btn-sm btn-default btnCsv">
+			<i class="glyphicon glyphicon-download-alt"></i>
+			Download CSV
+		</button>
+		
+		<button type="button" class="btn btn-sm btn-default btnBuild">
+			<i class="glyphicon glyphicon-cog"></i>
+			<span>Build Report</span>
+		</button>
+		
+		<button type="button" class="btn btn-sm btn-primary btnSave">
+			<i class="glyphicon glyphicon-ok"></i>
+			<span>Save Report</span>
+		</button>
+	</div>
+</div>
+					<div class="clearfix"></div>
+				</header>
+				
+			</div>
+			
+	
+			
+			<div class="appogee-page-content ">
+				
+<input type="hidden" value="" id="txtKey">
+
+<div id="designContainer" class="bubble-wizard load_hide" style="display: block;">
+
+	<div class="bubble-wizard-step active">
+		<header>
+			<div><span>1</span></div>
+			<a href="javascript: void(0);">Select Fields</a>
+		</header>
+		<p>Select which fields you wish to report on.</p>
+		<section>
+			<div class="field-container" id="fieldContainer">
+<div class="appogee-tabs field_selector">
+	<div class="tab-header">
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCHBlcnNvbmFsDKIBBkRIdXpqeQ" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCHBlcnNvbmFsDKIBBkRIdXpqeQ" class="selected">Basic Information</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGNvbnRhY3RzDKIBBkRIdXpqeQ" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGNvbnRhY3RzDKIBBkRIdXpqeQ">Contacts</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxIOUmVjb3JkQ2F0ZWdvcnkiBGJhbmsMogEGREh1emp5" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxIOUmVjb3JkQ2F0ZWdvcnkiBGJhbmsMogEGREh1emp5">Bank Details</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmVtcGxveW1lbnQMogEGREh1emp5" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmVtcGxveW1lbnQMogEGREh1emp5">Work Details</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3JpZ2h0VG9Xb3JrDKIBBkRIdXpqeQ" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3JpZ2h0VG9Xb3JrDKIBBkRIdXpqeQ">Right to Work</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBnNhbGFyeQyiAQZESHV6ank" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBnNhbGFyeQyiAQZESHV6ank">Salary</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGJlbmVmaXRzDKIBBkRIdXpqeQ" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGJlbmVmaXRzDKIBBkRIdXpqeQ">Benefits</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmpvYkhpc3RvcnkMogEGREh1emp5" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmpvYkhpc3RvcnkMogEGREh1emp5">Job History</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmRpc2NpcGxpbmUMogEGREh1emp5" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmRpc2NpcGxpbmUMogEGREh1emp5">Discipline</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3BlcmZvcm1hbmNlDKIBBkRIdXpqeQ" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3BlcmZvcm1hbmNlDKIBBkRIdXpqeQ">Performance</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC2xlYXJuaW5nRGV2DKIBBkRIdXpqeQ" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC2xlYXJuaW5nRGV2DKIBBkRIdXpqeQ">Learning &amp; Development</a>
+			<a href="#tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBmFzc2V0cwyiAQZESHV6ank" data-key="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBmFzc2V0cwyiAQZESHV6ank">Assets</a>
+			<a href="#tab_misc" data-key="misc">Misc</a>
+	</div>
+	
+	<div class="tab-panel selected" data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCHBlcnNvbmFsDKIBBkRIdXpqeQ">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCHBlcnNvbmFsDKIBBkRIdXpqeQ_0">
+					Basic Information
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="name.title">
+								Title
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="name.first" checked="checked">
+								First Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="name.middle">
+								Middle Name(s)
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="name.last" checked="checked">
+								Last Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="previous_name">
+								Previous Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="dob">
+								Date of Birth
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_tel">
+								Personal Telephone Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_mobile">
+								Personal Mobile Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_address.line1">
+								Line 1
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_address.line2">
+								Line 2
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_address.city">
+								City
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_address.county">
+								County / State
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_address.country">
+								Country
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_address.postcode">
+								Postcode / Zip
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="personal_email">
+								Personal Email
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="relationship_status">
+								Relationship Status
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="team" checked="checked">
+								Team
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="email" checked="checked">
+								Email
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="manager">
+								Manager
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="hr_manager">
+								HR Manager
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGNvbnRhY3RzDKIBBkRIdXpqeQ">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGNvbnRhY3RzDKIBBkRIdXpqeQ_0">
+					Dependents
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="dependents">
+							Dependents (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="dependents.name">
+								Contact Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="dependents.type">
+								Type
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="dependents.contact_info">
+								Contact Information
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGNvbnRhY3RzDKIBBkRIdXpqeQ_1">
+					Next of Kin
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="next_of_kin">
+							Next of Kin (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="next_of_kin.name">
+								Contact Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="next_of_kin.relationship">
+								Relationship
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="next_of_kin.tel">
+								Telephone Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="next_of_kin.other_tel">
+								Other Telephone Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="next_of_kin.address">
+								Address
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="next_of_kin.notes">
+								Notes
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGNvbnRhY3RzDKIBBkRIdXpqeQ_2">
+					Emergency Contact
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="emergency_contacts">
+							Emergency Contacts (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="emergency_contacts.name">
+								Contact Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="emergency_contacts.relationship">
+								Relationship
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="emergency_contacts.tel">
+								Telephone Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="emergency_contacts.other_tel">
+								Other Telephone Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="emergency_contacts.address">
+								Address
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="emergency_contacts.notes">
+								Notes
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxIOUmVjb3JkQ2F0ZWdvcnkiBGJhbmsMogEGREh1emp5">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIYCxIOUmVjb3JkQ2F0ZWdvcnkiBGJhbmsMogEGREh1emp5_0">
+					Bank Details
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="tax_code">
+								Tax Code
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="bank_name">
+								Bank Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="bank_account_holder">
+								Account Holder
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="bank_sort_code">
+								Sort Code
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="bank_account_number">
+								Account Number
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmVtcGxveW1lbnQMogEGREh1emp5">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmVtcGxveW1lbnQMogEGREh1emp5_0">
+					Work Details
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="employee_no">
+								Employee Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="job_title">
+								Job Title
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="status" checked="checked">
+								Job Status
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="continuous_start_date">
+								Continuous Start Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="start_date">
+								Job Start Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="end_date">
+								Job End Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="office_location">
+								Office Location
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="work_tel">
+								Work Telephone Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="work_mobile">
+								Work Mobile Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="shift_details">
+								Shift Details
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="employment_notes">
+								Employment Notes
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="employment_secure_notes">
+								Employment Secure Notes
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3JpZ2h0VG9Xb3JrDKIBBkRIdXpqeQ">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3JpZ2h0VG9Xb3JrDKIBBkRIdXpqeQ_0">
+					Status
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="nationality">
+								Country of Nationality
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="military_status">
+								Military Status
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="right_to_work">
+							Right To Work (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work_comments">
+								Right to Work Comments
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work_expiry">
+								Right to Work Expiry Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work_validated">
+								Right to Work Validated?
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work.document_type">
+								Document Type
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work.document_number">
+								Document Number
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work.document_expiry_date">
+								Document Expiry Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="right_to_work.comments">
+								Comments
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3JpZ2h0VG9Xb3JrDKIBBkRIdXpqeQ_1">
+					Identification
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="ni_number">
+								Social Security / National Insurance No
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="passport_no">
+								Passport No
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="drivers_license_no">
+								Drivers License No
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="visa_no">
+								Visa No
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="medical_no">
+								Medical / NHS No
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3JpZ2h0VG9Xb3JrDKIBBkRIdXpqeQ_2">
+					Diversity
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="gender">
+								Gender
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="ethnicity">
+								Ethnicity
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="religion">
+								Religion
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="disabilities">
+							Disabilities (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="disabilities.type">
+								Disability Type
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="disabilities.level">
+								Disability Level
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="disabilities.comments">
+								Comments
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBnNhbGFyeQyiAQZESHV6ank">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBnNhbGFyeQyiAQZESHV6ank_0">
+					Salary
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="salary">
+								Salary
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="bonus">
+								Bonus
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="salary_effective_date">
+								Salary Effective Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="salary_notes">
+								Salary Notes
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGJlbmVmaXRzDKIBBkRIdXpqeQ">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIcCxIOUmVjb3JkQ2F0ZWdvcnkiCGJlbmVmaXRzDKIBBkRIdXpqeQ_0">
+					Benefits
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="benefit_notes">
+								Benefit Notes
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="benefit_secure_notes">
+								Benefit Secure Notes
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="benefits">
+							Benefits (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.type">
+								Type
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.effective_from">
+								Effective From
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.currency">
+								Currency
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.value">
+								Value
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.url">
+								URL
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.taxable">
+								Taxable
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.details">
+								Details
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.notes">
+								Notes
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.active">
+								Active?
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="benefits.cost_centre">
+								Cost Centre
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmpvYkhpc3RvcnkMogEGREh1emp5">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmpvYkhpc3RvcnkMogEGREh1emp5_0">
+					Job History
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="job_history">
+							Job History (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.job_title">
+								Job Title
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.start_date">
+								Start Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.end_date">
+								End Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.location">
+								Location
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.salary">
+								Salary
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.bonus">
+								Bonus
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="job_history.comments">
+								Comments
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmRpc2NpcGxpbmUMogEGREh1emp5">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIeCxIOUmVjb3JkQ2F0ZWdvcnkiCmRpc2NpcGxpbmUMogEGREh1emp5_0">
+					Discipline
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="discipline">
+							Disciplinary and Grievance (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="discipline.type">
+								Type
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="discipline.date">
+								Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="discipline.item">
+								Items
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="discipline.outcome">
+								Outcome
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="discipline.action">
+								Action
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="discipline.expiry_date">
+								Expiry Date
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3BlcmZvcm1hbmNlDKIBBkRIdXpqeQ">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC3BlcmZvcm1hbmNlDKIBBkRIdXpqeQ_0">
+					Review Data
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="performance_rating">
+								Current Performance Rating
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="last_performance_review">
+								Last Performance Review
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="next_performance_review">
+								Next Performance Review
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC2xlYXJuaW5nRGV2DKIBBkRIdXpqeQ">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIfCxIOUmVjb3JkQ2F0ZWdvcnkiC2xlYXJuaW5nRGV2DKIBBkRIdXpqeQ_0">
+					Learning
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="learning_items">
+							Items (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="learning_items.activity">
+								Activity
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="learning_items.name">
+								Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="learning_items.date">
+								Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="learning_items.achievement">
+								Achievement
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBmFzc2V0cwyiAQZESHV6ank">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIaCxIOUmVjb3JkQ2F0ZWdvcnkiBmFzc2V0cwyiAQZESHV6ank_0">
+					Assets
+					
+				</label>
+			</header>
+			<section class="clearfix">
+				
+				<div class="clearfix"></div>
+				
+					<div class="checkbox table">
+						<label class="table " title="Fields can only be added from 1 table per report.">
+							<input type="checkbox" name="chkField" value="assets">
+							Assets (table)
+						</label>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets_notes">
+								Assets Notes
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets_secure_notes">
+								Assets Secure Notes
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.name">
+								Name
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.date_allocated">
+								Date Allocated
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.return_date">
+								Return Date
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.currency">
+								Currency
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.value">
+								Value
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.insured">
+								Insured?
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.url">
+								URL
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label class="" title="Fields can only be added from 1 table per report.">
+								<input type="checkbox" name="chkField" value="assets.notes">
+								Notes
+							</label>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div class="tab-panel " data-tab="tab_misc">
+		<div class="group">
+			<header>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="chkGroup" value="misc">
+					Misc
+					
+				</label>
+			</header>
+			<section class="clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="updated">
+								Last Updated
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="chkField" value="updated_by">
+								Last Updated By
+							</label>
+						</div>
+					</div>
+				
+				<div class="clearfix"></div>
+				
+			</section>
+		</div>
+	</div>
+</div></div>
+		</section>
+	</div>
+	
+	<div class="bubble-wizard-step active">
+		<header>
+			<div><span>2</span></div>
+			<a href="javascript: void(0);">Apply Filters</a>
+		</header>
+		<p>Apply one or more filter on each of the selected fields</p>
+		<section>
+			<div class="filter-container" id="filterContainer"><table class="table table-bordered table-shaded sortable view ui-sortable">
+	<thead>
+		<tr>
+			<th></th>
+			<th class="w200">Field</th>
+			<th>Filter</th>
+			<th class="w300">Blanks</th>
+			<th class="w50"></th>
+		</tr>
+	</thead>
+	<tbody>
+			<tr data-id="name.first" id="name.first">
+				<td class="sort-handle" title="Drag to re-order the report columns"></td>
+				<td>First Name</td>
+				<td>
+					
+					<div class="form-inline">
+					
+						<div class="form-group">
+							<select class="form-control input-sm ddlOperator w150">
+								<option value="">- Select -</option>
+								
+									<option value="equals">Equals</option>
+									<option value="not_equals">Not Equals</option>
+									<option value="begins_with">Begins With</option>
+									<option value="ends_with">Ends With</option>
+									<option value="contains">Contains</option>
+								
+							</select>
+							
+								<input type="text" class="form-control input-sm conditionValue w150
+									">
+							
+							<button type="button" class="btn btn-sm btn-default btnAdd">
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+						</div>
+					</div>
+				</td>
+				<td>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_0" value="include" class="blanks" checked="checked">
+						Include
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_0" value="ignore" class="blanks">
+						Ignore
+					</label>
+					<label class="radio-inline ">
+						<input type="radio" name="blanks_0" value="blanks" class="blanks">
+						Only Blanks
+					</label>
+				</td>
+				<td class="text-center">
+					<button type="button" class="btn btn-sm btn-default btn-delete" title="Remove Filters">
+						<i class="glyphicon glyphicon-remove btnRemoveFilters"></i>
+					</button>
+				</td>
+			</tr>
+			<tr data-id="name.last" id="name.last">
+				<td class="sort-handle" title="Drag to re-order the report columns"></td>
+				<td>Last Name</td>
+				<td>
+					
+					<div class="form-inline">
+					
+						<div class="form-group">
+							<select class="form-control input-sm ddlOperator w150">
+								<option value="">- Select -</option>
+								
+									<option value="equals">Equals</option>
+									<option value="not_equals">Not Equals</option>
+									<option value="begins_with">Begins With</option>
+									<option value="ends_with">Ends With</option>
+									<option value="contains">Contains</option>
+								
+							</select>
+							
+								<input type="text" class="form-control input-sm conditionValue w150
+									">
+							
+							<button type="button" class="btn btn-sm btn-default btnAdd">
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+						</div>
+					</div>
+				</td>
+				<td>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_1" value="include" class="blanks" checked="checked">
+						Include
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_1" value="ignore" class="blanks">
+						Ignore
+					</label>
+					<label class="radio-inline ">
+						<input type="radio" name="blanks_1" value="blanks" class="blanks">
+						Only Blanks
+					</label>
+				</td>
+				<td class="text-center">
+					<button type="button" class="btn btn-sm btn-default btn-delete" title="Remove Filters">
+						<i class="glyphicon glyphicon-remove btnRemoveFilters"></i>
+					</button>
+				</td>
+			</tr>
+			<tr data-id="team" id="team">
+				<td class="sort-handle" title="Drag to re-order the report columns"></td>
+				<td>Team</td>
+				<td>
+					
+					<div class="form-inline">
+					
+						<div class="form-group">
+							<select class="form-control input-sm ddlOperator w150">
+								<option value="">- Select -</option>
+								
+									<option value="equals">Equals</option>
+									<option value="not_equals">Not Equals</option>
+								
+							</select>
+							
+								<select class="form-control input-sm conditionValue w150">
+									<option value="">- Select -</option>
+									<option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIMCxIEVGVhbSICaHIMogEGREh1emp5">HR - Demo</option>
+									<option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKbWFuYWdlbWVudAyiAQZESHV6ank">Management</option>
+									<option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIUCxIEVGVhbSIKb3BlcmF0aW9ucwyiAQZESHV6ank">Operations - Demo</option>
+									<option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIPCxIEVGVhbSIFc2FsZXMMogEGREh1emp5">Sales - Demo</option>
+									<option value="ahdlfmFwcG9nZWUtaHItcHJvZHVjdGlvbnIRCxIEVGVhbSIHc3VwcG9ydAyiAQZESHV6ank">Support - Demo</option>
+								</select>
+							
+							<button type="button" class="btn btn-sm btn-default btnAdd">
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+						</div>
+					</div>
+				</td>
+				<td>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_2" value="include" class="blanks" checked="checked">
+						Include
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_2" value="ignore" class="blanks">
+						Ignore
+					</label>
+					<label class="radio-inline ">
+						<input type="radio" name="blanks_2" value="blanks" class="blanks">
+						Only Blanks
+					</label>
+				</td>
+				<td class="text-center">
+					<button type="button" class="btn btn-sm btn-default btn-delete" title="Remove Filters">
+						<i class="glyphicon glyphicon-remove btnRemoveFilters"></i>
+					</button>
+				</td>
+			</tr>
+			<tr data-id="email" id="email">
+				<td class="sort-handle" title="Drag to re-order the report columns"></td>
+				<td>Email</td>
+				<td>
+					
+					<div class="form-inline">
+					
+						<div class="form-group">
+							<select class="form-control input-sm ddlOperator w150">
+								<option value="">- Select -</option>
+								
+									<option value="equals">Equals</option>
+									<option value="not_equals">Not Equals</option>
+									<option value="begins_with">Begins With</option>
+									<option value="ends_with">Ends With</option>
+									<option value="contains">Contains</option>
+								
+							</select>
+							
+								<input type="text" class="form-control input-sm conditionValue w150
+									">
+							
+							<button type="button" class="btn btn-sm btn-default btnAdd">
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+						</div>
+					</div>
+				</td>
+				<td>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_3" value="include" class="blanks" checked="checked">
+						Include
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_3" value="ignore" class="blanks">
+						Ignore
+					</label>
+					<label class="radio-inline ">
+						<input type="radio" name="blanks_3" value="blanks" class="blanks">
+						Only Blanks
+					</label>
+				</td>
+				<td class="text-center">
+					<button type="button" class="btn btn-sm btn-default btn-delete" title="Remove Filters">
+						<i class="glyphicon glyphicon-remove btnRemoveFilters"></i>
+					</button>
+				</td>
+			</tr>
+			<tr data-id="status" id="status">
+				<td class="sort-handle" title="Drag to re-order the report columns"></td>
+				<td>Job Status</td>
+				<td>
+					
+					<div class="form-inline">
+					
+						<div class="form-group">
+							<select class="form-control input-sm ddlOperator w150">
+								<option value="">- Select -</option>
+								
+									<option value="equals">Equals</option>
+									<option value="not_equals">Not Equals</option>
+								
+							</select>
+							
+								<select class="form-control input-sm conditionValue w150">
+									<option value="">- Select -</option>
+									<option value="joining">Joining</option>
+									<option value="active">Active</option>
+									<option value="former">Former</option>
+								</select>
+							
+							<button type="button" class="btn btn-sm btn-default btnAdd">
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+						</div>
+					</div>
+				</td>
+				<td>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_4" value="include" class="blanks" checked="checked">
+						Include
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="blanks_4" value="ignore" class="blanks">
+						Ignore
+					</label>
+					<label class="radio-inline ">
+						<input type="radio" name="blanks_4" value="blanks" class="blanks">
+						Only Blanks
+					</label>
+				</td>
+				<td class="text-center">
+					<button type="button" class="btn btn-sm btn-default btn-delete" title="Remove Filters">
+						<i class="glyphicon glyphicon-remove btnRemoveFilters"></i>
+					</button>
+				</td>
+			</tr>
+	</tbody>
+</table></div> 
+		</section>
+	</div>
+	
+	<div class="bubble-wizard-step active">
+		<header>
+			<div><span>3</span></div>
+			<a href="javascript: void(0);">Define Sorting</a>
+		</header>
+		<p>Choose the fields you want to sort your report on and for each field, define the type of sorting to apply</p>
+		<section>
+			<div class="sorts-container" id="sortsContainer"><table class="table table-bordered table-shaded sortable view ui-sortable">	
+	<thead>
+		<tr>
+			<th></th>
+			<th class="col-sm-4">Field to Sort</th>
+			<th>Sort Type</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+	
+	<tfoot>
+	<tr data-index="-1">
+		<td>&nbsp;</td>
+		<td>
+			<select class="form-control input-sm">
+				<option value="" class="helper">- Select Field -</option>
+				<option value="name.first">
+					First Name 
+				</option>
+				<option value="name.last">
+					Last Name 
+				</option>
+				<option value="team">
+					Team 
+				</option>
+				<option value="email">
+					Email 
+				</option>
+				<option value="status">
+					Job Status 
+				</option>
+			</select>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+	</tfoot>
+</table></div>
+		</section>
+	</div>
+	
+	<div class="button-panel">
+		<button type="button" class="btn btn-primary btn-lg btnBuild">
+			<i class="glyphicon glyphicon-cog"></i>
+			<span>Build Report</span>
+		</button>
+	</div>
+</div>
+
+<div id="reportContainer">
+	<div id="reportView"></div>
+</div>
+
+
+
+
+
+
+			</div>
+			
+		</div>
+		
+	</div>
+	
+<footer class="footer desktop-only">
+	<div class="pull-left">
+		<a class="terms" href="#" target="_TERMS">
+			Terms of Service
+		</a>
+	</div>
+
+	<div class="middle">
+		<a href="javascript: void(0);" onclick="FreshWidget.show(); return false;">
+			Support
+		</a>
+	</div>
+
+	<div class="pull-right">
+		<span>©2018 Appogee HR Limited</span>
+	</div>
+</footer>
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="appogee-tooltip-container" style="display: none;"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable" tabindex="-1" role="dialog" aria-describedby="dlgSave" aria-labelledby="ui-id-1" style="display: none; position: relative;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><button class="ui-dialog-titlebar-close"></button></div><div class="dialog ui-dialog-content ui-widget-content" id="dlgSave" style="display: block;">
+	<div class="alert alert-info">
+		<p>This will save the design of the report, so the report can be run again in the future.</p>
+	</div>
+	
+	
+	
+	<div class="form-group mandatory">
+		<label id="lblReportName" for="txtReportName"></label>
+		<input type="text" class="form-control input-sm" id="txtReportName">
+	</div>
+</div></div></body></html>
